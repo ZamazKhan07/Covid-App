@@ -1,0 +1,27 @@
+.article__content{
+  display: flex;
+  flex-direction: column;
+}
+
+.article__heading{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    margin: 2rem 0;
+}
+
+.article__heading h1{
+    background: black;
+    color: #fff;
+    font-size: 40px;
+    font-weight: 1000;
+    line-height: 40px;
+    width: 100%;
+    padding: 1rem 0;
+}
+
+.article__news{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
